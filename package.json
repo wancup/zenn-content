@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "new:article": "zenn new:article",
+    "new:book": "zenn new:book",
+    "preview": "zenn preview --port 11222"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wancup/zenn-content.git"
+  },
+  "author": "wancup",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/wancup/zenn-content/issues"
+  },
+  "homepage": "https://github.com/wancup/zenn-content#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.116"
+  },
+  "packageManager": "pnpm@7.8.0"
+}
