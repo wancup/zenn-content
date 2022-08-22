@@ -111,7 +111,8 @@ Firebaseで一番嬉しかったのが、ローカルの開発中に使えるエ
 
 コンポーネント群だけでなく、[Theme functions](https://mantine.dev/theming/functions/)で用意されている関数群も便利です。例えばレスポンシブデザインのために画面サイズでスタイルを変えたいときにはsmallerThanやlargerThanを使ったり、色のアルファ値だけを変えたいときにrgbaを使ったりしています。
 
-Mantineのv5とRemixを組み合わせると警告が出るという[問題](https://github.com/mantinedev/mantine/issues/1895)があるので、まだMantineはバージョン4を使っています。回避できないかといくつか試してみたのですが、今のところ解決策が見つかっていません、、。情報提供お待ちしています。
+Mantineのv5とRemixを組み合わせると警告が出るという[問題](https://github.com/mantinedev/mantine/issues/1895)があるので、~~まだMantineはバージョン4を使っています~~。回避できないかといくつか試してみたのですが、今のところ解決策が見つかっていません、、。情報提供お待ちしています。
+とりあえず警告だけで動作には問題なさそう（[FYI](https://github.com/mantinedev/mantine/issues/1895#issuecomment-1219426360)）なので、v5にアップデートしてみました。（2022/8/22追記）
 
 ## CodeceptJS
 
