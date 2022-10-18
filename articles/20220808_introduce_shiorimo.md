@@ -148,6 +148,10 @@ DockerHubに公開されているイメージをそのままFly.io上にデプ�
 
 v0.27.0で日本語対応が入ったものの、現在（v0.28.1）漢字の検索まわりで[問題](https://github.com/meilisearch/meilisearch/issues/2403)があるようです。
 
+追記（2022/10/18）：現在Meilisearchはバージョンアップ時にそのままデータを移行できないのがかなり手間だと感じました。一度データをdumpしてからバージョンアップして、、という手順を踏む必要があります（参考↓）。ここらへんはバージョン1に期待ですね。
+
+https://docs.meilisearch.com/learn/advanced/updating.html#step-1-verify-your-database-version
+
 ## Upstash
 
 セッション管理のためのRedis用に使っています。本当はfly.io上でRedisを使いたかったのですが、すでに無料プランの枠を使い切っているため、別サービスを使うことにしました。
