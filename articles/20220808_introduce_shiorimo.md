@@ -28,7 +28,7 @@ published: true
 
 まずは開発しているサービスの紹介をします。
 
-https://shiorimo.fly.dev
+https://shiorimo.app
 
 「しおりモ！」は本に関するメモをいい感じ（当社比）に記録するためのサービスです。元々読書中に気に入ったセリフや後から読み直したい箇所を手帳や他のサービスにメモしていました。しかし、あとで見返すときにどの本のどのページか分かりづらい/検索がしづらかったので、自分が使いやすいサービスを開発することにしました。一応本についてのメモとは謳っているものの、通常のメモ帳サービスとしても使えるはずです。
 
@@ -69,7 +69,7 @@ Remixで地味に便利だと思ったのが、Markdown(.mdや.mdx)をそのま�
 
 https://remix.run/docs/en/v1/guides/mdx
 
-Markdownで書いたファイルがそのまま通常のルーティングに従ってレンダリングされるので、単純なテキストベースのページだとめちゃくちゃ管理が楽でした。今回で言えば[利用規約](https://shiorimo.fly.dev/docs/terms)や[プライバシーポリシー](https://shiorimo.fly.dev/docs/privacy)をMarkdownで書いています。
+Markdownで書いたファイルがそのまま通常のルーティングに従ってレンダリングされるので、単純なテキストベースのページだとめちゃくちゃ管理が楽でした。今回で言えば[利用規約](https://shiorimo.app/docs/terms)や[プライバシーポリシー](https://shiorimo.app/docs/privacy)をMarkdownで書いています。
 
 ## Fly.io
 
