@@ -124,7 +124,7 @@ https://remix.run/docs/en/main/start/v2#upgrading-to-the-new-convention
 
 RemixのViewTransitionがv2.13.0で安定化（ https://github.com/remix-run/remix/blob/main/CHANGELOG.md#v2130 ）しました。
 「しおりモ！」ではメモの一覧画面から詳細画面への遷移で使用しています。
-しかし、実はこれを実装した後（unstableのころに実装はしていました）にメインブラウザをFireFoxに移行してしまったので、自分自身は恩恵に預かれていません、、。
+しかし、実はこれを実装した後（unstableのころに実装はしていました）にメインブラウザをFirefoxに移行してしまったので、自分自身は恩恵に預かれていません、、。
 ViewTransitionでページ間の要素の移動をアニメーションさせると、（もちろんデザインによるところはありますが）結構大きく画面が動いてしまいます。
 そのため、`prefers-reduced-motion`を設定しているユーザにはなるべく激しい動きを無効にしたいところです。
 全体を一括で管理したいという気持ちがあったので、自分は今のところCSSで`animation-duration`と`animation-fill-mode`を設定して擬似的にアニメーションを無効化しています。
