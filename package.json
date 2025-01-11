@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/wancup/zenn-content#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.157"
+    "zenn-cli": "^0.1.158"
   },
-  "packageManager": "pnpm@9.12.1"
+  "packageManager": "pnpm@9.15.3"
 }
