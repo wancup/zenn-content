@@ -26,6 +26,12 @@ https://github.com/recharts/recharts
 v2時点ではa11yの考慮はほとんどされていなさそう（？）
 しかし、v3（記事執筆時点ではalpha版）でaccessibilityLayerというのが導入されるようです。これによってキーボード操作とスクリーンリーダー対応が入りそうです。
 
+:::message
+2025年01月15日追記
+ドキュメントのAPIには記載がありませんが、v2の時点で既にaccessibilityLayerが使えそうです！
+https://github.com/recharts/recharts/blob/v2.15.0/src/chart/generateCategoricalChart.tsx#L866
+:::
+
 ドキュメントサイトのStorybookの`/API/Accessibility`に詳細が記載されています。
 https://recharts.org/en-US/storybook
 
