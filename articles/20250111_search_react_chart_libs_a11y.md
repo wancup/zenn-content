@@ -28,7 +28,7 @@ v2時点ではa11yの考慮はほとんどされていなさそう（？）
 
 :::message
 2025年01月15日追記
-ドキュメントのAPIには記載がありませんが、v2の時点で既にaccessibilityLayerが使えそうです！
+ドキュメントの各コンポーネントのAPIに記載が無かったため初出時に勘違いをしていましたが、v2の時点で既にaccessibilityLayerが使えそうです！
 https://github.com/recharts/recharts/blob/v2.15.0/src/chart/generateCategoricalChart.tsx#L866
 :::
 
