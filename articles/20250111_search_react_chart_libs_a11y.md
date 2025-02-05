@@ -23,12 +23,12 @@ https://zenn.dev/aldagram_tech/articles/346224ada3faa1
 
 https://github.com/recharts/recharts
 
-v2時点ではa11yの考慮はほとんどされていなさそう（？）
+~~v2時点ではa11yの考慮はほとんどされていなさそう（？）~~
 しかし、v3（記事執筆時点ではalpha版）でaccessibilityLayerというのが導入されるようです。これによってキーボード操作とスクリーンリーダー対応が入りそうです。
 
 :::message
 2025年01月15日追記
-ドキュメントの各コンポーネントのAPIに記載が無かったため初出時に勘違いをしていましたが、v2の時点で既にaccessibilityLayerが使えそうです！
+ドキュメントの各コンポーネントのAPIに記載が無かったため初出時に勘違いをしていましたが、v2の時点で既にaccessibilityLayerが使えます！
 https://github.com/recharts/recharts/blob/v2.15.0/src/chart/generateCategoricalChart.tsx#L866
 :::
 
@@ -40,7 +40,7 @@ https://recharts.org/en-US/storybook
 ![ツールチップにタイトルの表示が被っている例](/images/20250111_search_react_chart_libs_a11y/title_over_tooltip.png)
 
 少し気になってしまうので、自分が実際に使うときはtitleではなく`aria-`属性あたりを使うかもしれません。
-ともかく、v3でかなりの改善がありそうなので正式リリースが楽しみです！
+~~ともかく、v3でかなりの改善がありそうなので正式リリースが楽しみです！~~ v2時点でaccessibilityLayerの恩恵にあずかれます！
 
 :::message
 2025年01月17日追記
